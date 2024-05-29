@@ -3,7 +3,9 @@ package com.elsospring;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
+// A bean elnevezése másképp
+@Service("spying")
 public class SpyService {
 	
 	public String iSaySomething() {
