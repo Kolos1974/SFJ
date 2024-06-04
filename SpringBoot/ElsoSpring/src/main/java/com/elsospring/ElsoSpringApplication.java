@@ -28,12 +28,15 @@ public class ElsoSpringApplication {
 	public static void main(String[] args) {
 		ApplicationContext ct = SpringApplication.run(ElsoSpringApplication.class, args);
 		
+		
+		/*
 		String[] beanArray = ct.getBeanDefinitionNames();
 		Arrays.sort(beanArray);
 		
 		for(String name : beanArray) {
 			System.out.println(name);
 		}
+		*/
 		
 		
 			
